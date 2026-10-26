@@ -1,0 +1,31 @@
+{
+  "name": "pay3-wallet",
+  "version": "2.0.0",
+  "private": true,
+  "engines": {
+    "node": "^18.18.0 || ^19.8.0 || >=20.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reown/walletkit": "^1.5.6",
+    "@solana/spl-token": "^0.4.13",
+    "@solana/web3.js": "^1.98.4",
+    "@walletconnect/core": "^2.23.10",
+    "@walletconnect/utils": "^2.23.10",
+    "bip39": "^3.1.0",
+    "buffer": "^6.0.3",
+    "ed25519-hd-key": "^2.0.0",
+    "ethers": "^6.13.5",
+    "jsqr": "^1.4.0",
+    "lucide-react": "^0.383.0",
+    "next": "^15.5.21",
+    "qr-code-styling": "^1.9.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
