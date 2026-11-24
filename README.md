@@ -1,7 +1,7 @@
 # Pay3 Wallet (v2)
 
 Self-custody, multi-chain wallet built with Next.js 15 — redesigned with a dark theme, multiple wallets and custom coin import.
-Chains: Ethereum, Polygon, OP Mainnet, Arbitrum One, Base, Zora, Mantle, Plasma (EVM) and Solana.
+Chains: Ethereum, BNB Smart Chain, Polygon, OP Mainnet, Arbitrum One, Base, Zora, Mantle, Plasma (EVM) and Solana.
 
 ## What changed in v2
 - **New dark UI**: floating pill nav, wallet-switcher sheet, day-grouped Activity, Settings.
