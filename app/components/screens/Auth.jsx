@@ -22,13 +22,13 @@ export function WelcomeScreen({ onCreate, onImport }) {
       <div className="p3-hero-graphic">
         <div className="glow" />
         <div className="glow two" />
-        <div className="tag">9 chains · self-custody · multi-wallet</div>
+        <div className="tag">10 chains · self-custody · multi-wallet</div>
       </div>
 
       <div className="p3-welcome-copy">
         <h2>Your gateway to Web3 finance.</h2>
         <p>
-          Create a wallet or import as many as you like — recovery phrases, EVM keys or Solana keys — and manage coins across Ethereum, Polygon, OP Mainnet,
+          Create a wallet or import as many as you like — recovery phrases, EVM keys or Solana keys — and manage coins across Ethereum, BNB Smart Chain, Polygon, OP Mainnet,
           Arbitrum, Base, Zora, Mantle, Plasma and Solana.
         </p>
       </div>
@@ -230,7 +230,7 @@ const IMPORT_COPY = {
     label: "EVM private key",
     placeholder: "0x…",
     empty: "Enter your private key.",
-    help: "A private key only unlocks EVM chains (Ethereum, Polygon, OP Mainnet, Arbitrum, Base, Zora, Mantle, Plasma). Solana uses a different key type — import a recovery phrase to get both.",
+    help: "A private key only unlocks EVM chains (Ethereum, BNB Smart Chain, Polygon, OP Mainnet, Arbitrum, Base, Zora, Mantle, Plasma). Solana uses a different key type — import a recovery phrase to get both.",
   },
   solkey: {
     label: "Solana private key",
