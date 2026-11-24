@@ -3,7 +3,7 @@ import "./globals.css";
 export const metadata = {
   title: "Pay3 — Your gateway to Web3 finance",
   description:
-    "Pay3 is a self-custody multi-chain wallet. Manage multiple wallets, import any coin, send and receive across 9 chains, connect to sites with WalletConnect — by mecozx.",
+    "Pay3 is a self-custody multi-chain wallet. Manage multiple wallets, import any coin, send and receive across 10 chains, connect to sites with WalletConnect — by mecozx.",
   metadataBase: new URL("https://pay3.space"),
   icons: { icon: "/logo.png", apple: "/logo.png" },
   openGraph: {
