@@ -21,6 +21,14 @@ export const CHAINS = {
     explorerAddr: (a) => `https://etherscan.io/address/${a}`,
     explorerToken: (a) => `https://etherscan.io/token/${a}`,
   },
+  bnb: {
+    key: "bnb", name: "BNB Smart Chain", code: "BNB", symbol: "BNB", coinName: "BNB", type: "evm", chainId: 56,
+    alchemySlug: "bnb-mainnet", cgId: "binancecoin", cgPlatform: "binance-smart-chain", twFolder: "smartchain", iconSymbols: ["bnb"],
+    color: "#F0B90B", explorerName: "BscScan",
+    explorerTx: (h) => `https://bscscan.com/tx/${h}`,
+    explorerAddr: (a) => `https://bscscan.com/address/${a}`,
+    explorerToken: (a) => `https://bscscan.com/token/${a}`,
+  },
   polygon: {
     key: "polygon", name: "Polygon", code: "POL", symbol: "POL", coinName: "Polygon Ecosystem Token", type: "evm", chainId: 137,
     alchemySlug: "polygon-mainnet", cgId: "polygon-ecosystem-token", cgPlatform: "polygon-pos", twFolder: "polygon", iconSymbols: ["pol", "matic"],
@@ -87,7 +95,7 @@ export const CHAINS = {
   },
 };
 
-export const CHAIN_ORDER = ["ethereum", "polygon", "optimism", "arbitrum", "base", "zora", "mantle", "plasma", "solana"];
+export const CHAIN_ORDER = ["ethereum", "bnb", "polygon", "optimism", "arbitrum", "base", "zora", "mantle", "plasma", "solana"];
 export const EVM_CHAINS = CHAIN_ORDER.filter((k) => CHAINS[k].type === "evm");
 
 export const SOLANA_PATH = (index = 0) => `m/44'/501'/${index}'/0'`;
